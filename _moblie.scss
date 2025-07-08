@@ -1,0 +1,35 @@
+@media (max-width: 770px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+}
+.header-nav {
+    gap: 15px;
+}
+.section {
+    &-content {
+        justify-content: center;
+    }
+    &-cofe {
+        justify-content: center;
+    }
+    &-dessert {
+        justify-content: center;
+    }
+    &-snacks {
+        justify-content: center;
+    }
+    &-reviews {
+        justify-content: center;
+    }
+    &-map {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__map {
+        width: 100vw;
+    }
+}
+}
