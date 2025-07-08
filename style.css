@@ -656,4 +656,22 @@ a {
   .section__map {
     width: 100vw;
   }
+  .section-top__table {
+    opacity: 0.5;
+  }
+  .section-top__1 {
+    opacity: 0.5;
+  }
+  .section-top__2 {
+    opacity: 0.5;
+  }
+  .section-top__3 {
+    opacity: 0.5;
+  }
+  .section-top__4 {
+    opacity: 0.5;
+  }
+  .section-top__content {
+    align-items: center;
+  }
 }/*# sourceMappingURL=style.css.map */

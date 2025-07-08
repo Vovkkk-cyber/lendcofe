@@ -31,5 +31,26 @@
     &__map {
         width: 100vw;
     }
+    &-top {
+        &__table {
+            opacity: 0.5 ;
+        }
+        &__1 {
+            opacity: 0.5 ;
+        }
+        &__2 {
+            opacity: 0.5 ;
+        }
+        &__3 {
+            opacity: 0.5 ;
+        }
+        &__4 {
+            opacity: 0.5 ;
+        }
+        &__content {
+          align-items: center;  
+        }
+        
+    }
 }
 }
