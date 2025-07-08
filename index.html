@@ -77,12 +77,12 @@
         <div class="section-nav">
             <h2 class="section-nav__title" id="menu">Меню</h2>
             <div class="nav">
-                <button class="nav__button">Кофе</button>
-                <button class="nav__button">Десерты</button>
-                <button class="nav__button">Закуски</button>
+                <button data-id="cofe" class="nav__button active">Кофе</button>
+                <button data-id="dessert" class="nav__button ">Десерты</button>
+                <button data-id="snacks" class="nav__button ">Закуски</button>
             </div>
         </div>
-        <div class="section-cofe">
+        <div class="section-cofe panel show" id="cofe">
             <article class="product">
                 <img class="product__img" src="img/white-Cappuccino.jpg" alt="White Cappuccino">
                 <div class="product__content">
@@ -148,7 +148,7 @@
                 </div>
             </article>
         </div>
-        <div class="section-dessert">
+        <div class="section-dessert panel" id="dessert">
             <article class="product">
                 <img class="product__img" src="img/cinnamon.jpg" alt="cinnamon">
                 <div class="product__content">
@@ -214,7 +214,7 @@
                 </div>
             </article>
         </div>
-        <div class="section-snacks">
+        <div class="section-snacks panel" id="snacks">
             <article class="product">
                 <img class="product__img" src="img/nuts.jpg" alt="nuts">
                 <div class="product__content">

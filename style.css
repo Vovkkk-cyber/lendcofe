@@ -599,4 +599,23 @@ a {
 }
 .footer-link__img:hover path {
   fill: rgb(162, 101, 57);
+}
+
+.active {
+  background-color: rgb(162, 101, 57);
+  border-color: rgb(162, 101, 57);
+  color: rgb(255, 255, 255);
+}
+
+.panel {
+  display: none;
+}
+
+.show {
+  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding-top: 48px;
+  padding-bottom: 64px;
 }/*# sourceMappingURL=style.css.map */
