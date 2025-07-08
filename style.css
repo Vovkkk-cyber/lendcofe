@@ -60,6 +60,8 @@ a {
   letter-spacing: 0px;
   vertical-align: middle;
   color: rgb(162, 101, 57);
+  text-align: center;
+  line-height: 52px;
   cursor: pointer;
 }
 .header-nav__button:hover {
@@ -176,6 +178,8 @@ a {
   letter-spacing: 0px;
   vertical-align: middle;
   color: rgb(162, 101, 57);
+  text-align: center;
+  line-height: 52px;
   cursor: pointer;
   z-index: 4;
 }
