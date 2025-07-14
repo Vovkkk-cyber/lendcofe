@@ -624,28 +624,22 @@ a {
   padding-bottom: 64px;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 1024px) {
   .center {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-  .header {
-    height: 100px;
-    justify-content: center;
-  }
-  .header__logo {
-    display: none;
+    padding-left: calc(50% - 420px);
+    padding-right: calc(50% - 420px);
   }
   .header-nav {
     gap: 15px;
+  }
+  .section-map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
-  .header-nav__button {
-    display: none;
-  }
-  .section-nav {
-    flex-direction: column;
-    gap: 10px;
+  .section__map {
+    width: 100vw;
   }
   .section-content {
     justify-content: center;
@@ -662,25 +656,6 @@ a {
   .section-reviews {
     justify-content: center;
   }
-  .section-map {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .section__map {
-    width: 100vw;
-  }
-  .section-top__content {
-    width: auto;
-  }
-  .section-top__main-text {
-    font-size: 16px;
-  }
-  .section-top__text {
-    font-size: 12px;
-    width: auto;
-  }
   .section-top__table {
     opacity: 0.5;
   }
@@ -696,8 +671,58 @@ a {
   .section-top__4 {
     opacity: 0.5;
   }
+}
+@media (max-width: 770px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header {
+    height: 100px;
+    justify-content: center;
+  }
+  .header-nav__button {
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .section-nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .section__map {
+    height: 450px;
+  }
+  .section-top__content {
+    width: auto;
+  }
+  .section-top__main-text {
+    font-size: 16px;
+  }
+  .section-top__text {
+    font-size: 12px;
+    width: auto;
+  }
   .section-top__content {
     align-items: center;
+  }
+  .footer {
+    height: 100px;
+    justify-content: center;
+  }
+  .footer-container {
+    display: none;
+  }
+}
+@media (max-width: 585px) {
+  .header__logo {
+    display: none;
+  }
+  .header-nav {
+    align-items: center;
+  }
+  .header-nav__button {
+    display: none;
   }
   .cart {
     height: auto;
@@ -712,12 +737,5 @@ a {
     width: auto;
     font-size: 12px;
     padding-bottom: 6px;
-  }
-  .footer {
-    height: 100px;
-    justify-content: center;
-  }
-  .footer-container {
-    display: none;
   }
 }/*# sourceMappingURL=style.css.map */

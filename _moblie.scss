@@ -1,26 +1,22 @@
-@media (max-width: 770px) {
+@media (max-width: 1024px) {
     .center {
-        padding-left: 16px;
-        padding-right: 16px;
-}
-.header {
-    height: 100px;
-    justify-content: center;
-    &__logo {
-        display: none;
+        padding-left: calc(50% - 420px);
+        padding-right: calc(50% - 420px); 
     }
-    &-nav {
-        gap: 15px;
-        align-items: center;
-    &__button {
-        display: none;
+    .header {
+        &-nav {
+            gap: 15px;
+        }
     }
-}
-}
 .section {
-    &-nav {
+    &-map {
+        display: flex;
         flex-direction: column;
-        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    &__map {
+        width: 100vw;
     }
     &-content {
         justify-content: center;
@@ -37,26 +33,7 @@
     &-reviews {
         justify-content: center;
     }
-    &-map {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    &__map {
-        width: 100vw;
-    }
     &-top {
-        &__content {
-            width: auto;
-        }
-        &__main-text {
-            font-size: 16px;
-        }
-        &__text {
-            font-size: 12px;
-            width: auto;
-        }
         &__table {
             opacity: 0.5 ;
         }
@@ -72,11 +49,73 @@
         &__4 {
             opacity: 0.5 ;
         }
+    }
+}
+}
+
+@media (max-width: 770px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+}
+.header {
+    height: 100px;
+    justify-content: center;
+    &-nav {
+        &__button {
+            width: auto;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+}
+.section {
+    &-nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    &__map {
+        height: 450px;
+    }
+    &-top {
+        &__content {
+            width: auto;
+        }
+        &__main-text {
+            font-size: 16px;
+        }
+        &__text {
+            font-size: 12px;
+            width: auto;
+        }
+        
         &__content {
           align-items: center;  
         }
         
     }
+}
+
+.footer {
+    height: 100px;
+    justify-content: center;
+    &-container {
+        display: none;
+    }
+}
+}
+@media (max-width: 585px) {
+    .header {
+    &__logo {
+        display: none;
+    }
+    &-nav {
+        align-items: center;
+    &__button {
+        display: none;
+    }
+}
 }
 .cart {
     height: auto;
@@ -90,13 +129,6 @@
         width: auto;
         font-size: 12px;
         padding-bottom: 6px;
-    }
-}
-.footer {
-    height: 100px;
-    justify-content: center;
-    &-container {
-        display: none;
     }
 }
 }
