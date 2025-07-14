@@ -87,7 +87,7 @@
         }
         &__text {
             font-size: 12px;
-            width: auto;
+
         }
         
         &__content {
@@ -116,6 +116,16 @@
         display: none;
     }
 }
+}
+.section {
+    &-top {
+        &__title {
+            font-size: 42px;
+        }
+        &__text {
+            width: auto;
+        }
+    }
 }
 .cart {
     height: auto;
